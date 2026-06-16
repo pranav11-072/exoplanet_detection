@@ -1,0 +1,14 @@
+__pycache__/
+*.py[cod]
+*.egg-info/
+.env
+.venv/
+venv/
+models/*.keras
+models/*.h5
+models/*.npy
+results/
+data/*.fits
+data/*.fit
+.DS_Store
+*.log

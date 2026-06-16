@@ -1,0 +1,12 @@
+version: "3.9"
+services:
+  exoplanet-app:
+    build: .
+    ports:
+      - "8501:8501"
+    volumes:
+      - ./models:/app/models
+      - ./results:/app/results
+      - ./data:/app/data
+    environment:
+      - STREAMLIT_THEME_BASE=dark
